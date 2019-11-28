@@ -1,11 +1,14 @@
-Projekt sk³ada siê z programu napisanego w jêzyku BASCOM, który tworzy animacjê na wyœwietlaczu LCD oraz sczytuje dane z miernika temperatury DS18B20, które s¹ nastêpnie pobierane przez port szeregowy i przetwarzane w programie napisanym w jêzyku Python, który na bie¿¹co rysuje wykres temperatury od czasu.
-Gdy wykres zostanie „uzupe³niony” do koñca zostaje on zapisany w formacie „jpeg”, wyczyszczony oraz uzupe³niany od nowa, wszystko trwa nieustannie, zbieraj¹c dla nas dane i tworz¹c kolejne obrazy numeruj¹c je, a¿ do zakoñczenia pracy dzia³ania programu przez u¿ytkownika.
-Uruchamiaj¹c program w jêzyku Python wpisujemy numer portu szeregowego do którego pod³¹czony jest mikrokontroler i reszta nastêpuje automatycznie.
+## TEMPERATURE MONITOR
 
-Pliki zawarte w projekcie:
-„program.py” - program g³ówny rysuj¹cy wykres
-„TP.bas” - program steruj¹cy mikrokontrolerem
-„ds18b20_commands.bas” - plik inkludowany do „TP.bas” zawieraj¹cy funkcje magistrali 1wire
-„Przedstawienie projektu” - folder zawieraj¹cy:
-	„EvB 5.1 – opis.odt” 	- opis zestawu uruchomieniowego 		EvB 5.1
-	„Prezentacja_dzia³ania_programu.wmv” - nagranie 		prezentuj¹ce dzia³anie programu
+Project was written in BASCOM.Projekt skÅ‚ada siÄ™ z programu napisanego w jÄ™zyku BASCOM, ktÃ³ry tworzy animacjÄ™ na wyÅ›wietlaczu LCD oraz sczytuje dane z miernika temperatury DS18B20, ktÃ³re sÄ… nastÄ™pnie pobierane przez port szeregowy i przetwarzane w programie napisanym w jÄ™zyku Python, ktÃ³ry na bieÅ¼Ä…co rysuje wykres temperatury od czasu.
+Gdy wykres zostanie â€uzupeÅ‚nionyâ€ do koÅ„ca zostaje on zapisany w formacie â€jpegâ€, wyczyszczony oraz uzupeÅ‚niany od nowa, wszystko trwa nieustannie, zbierajÄ…c dla nas dane i tworzÄ…c kolejne obrazy numerujÄ…c je, aÅ¼ do zakoÅ„czenia pracy dziaÅ‚ania programu przez uÅ¼ytkownika.
+UruchamiajÄ…c program w jÄ™zyku Python wpisujemy numer portu szeregowego do ktÃ³rego podÅ‚Ä…czony jest mikrokontroler i reszta nastÄ™puje automatycznie.
+
+### Project include files:
+
+â€program.pyâ€ - python script. It draws temperature curve on chart.
+â€TP.basâ€ - BASCOM script. It controls microcontroler.
+â€ds18b20_commands.basâ€ - file imported to â€TP.basâ€ file. It includes 1wire magistral functions.
+
+â€Przedstawienie projektu/EvB 5.1 â€“ opis.odtâ€ 	- EvB 5.1 starter kit description
+â€Przedstawienie projektu/Prezentacja_dziaÅ‚ania_programu.wmvâ€ - program presentation
