@@ -13,9 +13,9 @@ Running the Python program, enter the serial port number to which the microcontr
 
 ### Project include files:
 
-"program.py" - python script. It draws temperature curve on chart.
-"TP.bas" - BASCOM script. It controls microcontroler.
-"ds18b20_commands.bas" - file imported to „TP.bas” file. It includes 1wire magistral functions.
+**program.py** - python script. It draws temperature curve on chart.
+**TP.bas** - BASCOM script. It controls microcontroler.
+**ds18b20_commands.bas** - file imported to „TP.bas” file. It includes 1wire magistral functions.
 
-"Przedstawienie projektu/EvB 5.1 – opis.odt" 	- EvB 5.1 starter kit description
-"Przedstawienie projektu/Prezentacja_działania_programu.wmv" - program presentation
+**presentation/Starter_Kit_Description.odt** 	- EvB 5.1 starter kit description
+**presentation/Chart_display.wmv** - program presentation
