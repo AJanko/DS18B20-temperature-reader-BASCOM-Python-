@@ -1,14 +1,21 @@
 ## TEMPERATURE MONITOR
 
-Project was written in BASCOM.Projekt składa się z programu napisanego w języku BASCOM, który tworzy animację na wyświetlaczu LCD oraz sczytuje dane z miernika temperatury DS18B20, które są następnie pobierane przez port szeregowy i przetwarzane w programie napisanym w języku Python, który na bieżąco rysuje wykres temperatury od czasu.
-Gdy wykres zostanie „uzupełniony” do końca zostaje on zapisany w formacie „jpeg”, wyczyszczony oraz uzupełniany od nowa, wszystko trwa nieustannie, zbierając dla nas dane i tworząc kolejne obrazy numerując je, aż do zakończenia pracy działania programu przez użytkownika.
-Uruchamiając program w języku Python wpisujemy numer portu szeregowego do którego podłączony jest mikrokontroler i reszta następuje automatycznie.
+Project purpose was to get data from microcontroller and process it. 
+
+Microcontroller was programmed with BASCOM language. 
+Startet kit includes LCD data panel and DS18B20 temperature gauge. 
+
+BASCOM scrip twhich creates an animation on the LCD display and reads data from a temperature meter, which is then downloaded via a serial port and processed in a program written in Python, which draws a temperature graph from time to time.
+
+When the chart is "completed" to the end it is saved in "jpeg" format, cleaned and supplemented again, everything continues constantly, collecting data for us and creating subsequent images by numbering them until the end of the program operation by the user.
+
+Running the Python program, enter the serial port number to which the microcontroller is connected and the rest is done automatically.
 
 ### Project include files:
 
-„program.py” - python script. It draws temperature curve on chart.
-„TP.bas” - BASCOM script. It controls microcontroler.
-„ds18b20_commands.bas” - file imported to „TP.bas” file. It includes 1wire magistral functions.
+"program.py" - python script. It draws temperature curve on chart.
+"TP.bas" - BASCOM script. It controls microcontroler.
+"ds18b20_commands.bas" - file imported to „TP.bas” file. It includes 1wire magistral functions.
 
-„Przedstawienie projektu/EvB 5.1 – opis.odt” 	- EvB 5.1 starter kit description
-„Przedstawienie projektu/Prezentacja_działania_programu.wmv” - program presentation
+"Przedstawienie projektu/EvB 5.1 – opis.odt" 	- EvB 5.1 starter kit description
+"Przedstawienie projektu/Prezentacja_działania_programu.wmv" - program presentation
